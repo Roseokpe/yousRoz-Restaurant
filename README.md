@@ -1,72 +1,80 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Project Name
 
-> Description the project.
+E-commerce
+
+# 📜 Description the project.
+Javascript capstone project.
+The JavaScript capstone project is about building web application based on an external API.
+We selected an API that provides data about a topic that we like and then build the webapp around itI used API
+
+## 🏛 Built With
+
+- HTML
+- CSS
+- JavaScript
+- ES6 Modules
+- API 
+- Webpak-config.
+- following linters standards.
+- following github flows standards.
+- following git flows standards.
 
 
-## Built With
+### 🖥️LIVE DEMO
+You can use Leaderboard by clicking [here]()
 
-- Major languages
-- Frameworks
-- Technologies used
+## 📑 Authors
 
-## Live Demo (if available)
+👤 **Ahmed Zaki Yousufi**
+- GitHub: [Ahmed Zaki Yousufi](https://github.com/zakiyousufi)
+- LinkedIn: [Ahmed Zaki Yousufi](https://www.linkedin.com/in/ahmadzaki-yousufi-055214217/)
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+👤 **Rose Okpe**
+- GitHub: [@roseokpe](https://github.com/roseokpe)
+- Twitter: [@roseokpe](https://twitter.com/roseokpe)
+- LinkedIn: [LinkedIn](linkedin.com/in/rose-okpe-0334b5177/)
 
 
-To get a local copy up and running follow these simple example steps.
+## ⚙ Getting Started
 
-### Prerequisites
+To get a local copy up and running... 
+Follow these seteps
 
-### Setup
+  ## 📋Setup
+to use the project E-commerce please follow :
+ >Open [github.com](https://github.com) and go to my GitHub Profile >>Repositorys
+ Repository name: [E-commerce](https://github.com/Roseokpe/E-commerce).
+ ** To clone
+ >Click “Code” and copy the given URL[https://github.com/Roseokpe/E-commerce.git].
 
-### Install
+ >Open “Git Bash or CMD terminal”
 
-### Usage
+ >Select the location on your PC by typing (cd)    
 
-### Run tests
+After the selecting location
 
-### Deployment
+ >Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
 
+ >Syntax:
+  >>> cd [folder name] eg: desktop 
+  >>> git clone [repository URL]
 
+### 🔌Usage
 
-## Authors
+>open your directory E-commerce/
+to run the file :
+_use vs-code or any IDE  to view line code .
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+_use you preferd browser to run the file .html to get project website.
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+thanks:
 
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
+## 🙏🏻 Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
