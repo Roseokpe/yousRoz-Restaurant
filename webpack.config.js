@@ -25,9 +25,4 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/webpack-demo/',
   },
-  // type: 'module',
-  // optimization: {
-  //     runtimeChunk: 'single',
-  // },
 };
-// webpack file
