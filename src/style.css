@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  padding: 10px 24px;
+  font-family: 'Rebboto', sans-serif, monospace;
+}
+
+body {
+  padding: 10px 24px;
+  font-family: 'Rebboto', sans-serif, monospace;
+}
+
+.header {
+  width: 100%;
+  height: 35px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(233, 237, 241);
+}
