@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
@@ -41,7 +41,7 @@ body {
   color: rgb(11, 5, 71);
 }
 
-.login{
+.login {
   margin-left: 40px;
   color: #e13a44;
 }
