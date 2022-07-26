@@ -32,7 +32,10 @@ body {
 }
 
 .nav-link {
-  padding: 7px 10px;
+  padding: 7px 5px;
+  margin-left: -50px;
+  display: flex;
+  flex-direction: row;
 }
 
 .header-link {
@@ -44,4 +47,10 @@ body {
 .login {
   margin-left: 40px;
   color: #e13a44;
+  display: flex;
+  flex-direction: row;
+}
+
+.loging-text{
+  padding-left: 15px;
 }
