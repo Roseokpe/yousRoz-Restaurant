@@ -1,10 +1,13 @@
 {
-  "name": "e-commerce",
+  "name": "ecommerce",
   "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
-  "main": "webpack.config.js",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet).",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage",
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,7 +21,28 @@
   },
   "homepage": "https://github.com/Roseokpe/E-commerce#readme",
   "devDependencies": {
-    "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "@babel/preset-env": "^7.17.12",
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "gh-pages": "^4.0.0",
+    "hint": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "style-loader": "^3.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^28.1.0",
+    "lodash": "^4.17.21"
   }
 }

@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  padding: 10px 24px;
+  font-family: 'Rebboto', sans-serif, monospace;
+}
+
+body {
+  padding: 10px 24px;
+  font-family: 'Rebboto', sans-serif, monospace;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(240, 240, 240);
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo {
+  margin-left: -10%;
+  color: #e13a44;
+}
+
+.nav-link {
+  padding: 7px 5px;
+  margin-left: -50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-link {
+  margin-left: 10px;
+  text-decoration: none;
+  color: rgb(11, 5, 71);
+}
+
+.login {
+  margin-left: 40px;
+  color: #e13a44;
+  display: flex;
+  flex-direction: row;
+}
+
+.loging-text {
+  padding-left: 15px;
+}
