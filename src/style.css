@@ -1,5 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  padding: 10px 24px;
+  font-family: 'Rebboto', sans-serif, monospace;
+}
+
+body {
+  padding: 10px 24px;
+  font-family: 'Rebboto', sans-serif, monospace;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(240, 240, 240);
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo {
+  margin-left: -10%;
+  color: #e13a44;
+}
+
+.nav-link {
+  padding: 7px 5px;
+  margin-left: -50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-link {
+  margin-left: 10px;
+  text-decoration: none;
+  color: rgb(11, 5, 71);
+}
+
+.login {
+  margin-left: 40px;
+  color: #e13a44;
+  display: flex;
+  flex-direction: row;
+}
+
+.loging-text {
+  padding-left: 15px;
+}
+
 footer {
   display: flex;
   flex-direction: row;
@@ -10,13 +67,15 @@ footer {
   font-size: 9px;
   font-family: 'roboto', sans-serif;
   bottom: 0;
+  left: 0;
   position: fixed;
-  width: 95.5%;
+  width: 100%;
   align-items:center;
+  padding: 10px;
 }
 
 .payment-sec{
-  margin-left: 6px;
+  margin-left: 24px;
 }
 
 footer ul { 
@@ -26,8 +85,12 @@ footer ul {
   flex-direction: row;
   gap: 4px;
   font-size: 9px;
-  font-family: 'roboto', sans-serif;
-  
+  font-family: 'roboto', sans-serif; 
+}
+
+.card {
+  font-size: 24px;
+  padding: 2px 4px;
 }
 
 footer .more-info ul{
@@ -47,5 +110,5 @@ footer .more-info li{
 }
 
 footer h2 {
-  margin-right: 4px;
+  margin-right: 24px;
 }
