@@ -61,7 +61,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: #3e3c3c;;
+  background: #3e3c3c;
   color: white;
   height: 120px;
   font-size: 9px;
@@ -70,22 +70,22 @@ footer {
   left: 0;
   position: fixed;
   width: 100%;
-  align-items:center;
+  align-items: center;
   padding: 10px;
 }
 
-.payment-sec{
+.payment-sec {
   margin-left: 24px;
 }
 
-footer ul { 
+footer ul {
   width: 80px;
   height: 80px;
   display: flex;
   flex-direction: row;
   gap: 4px;
   font-size: 9px;
-  font-family: 'roboto', sans-serif; 
+  font-family: 'roboto', sans-serif;
 }
 
 .card {
@@ -93,7 +93,7 @@ footer ul {
   padding: 2px 4px;
 }
 
-footer .more-info ul{
+footer .more-info ul {
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -101,7 +101,7 @@ footer .more-info ul{
   font-family: 'roboto', sans-serif;
 }
 
-footer .more-info li{
+footer .more-info li {
   display: flex;
   flex-direction: column;
   list-style: none;
