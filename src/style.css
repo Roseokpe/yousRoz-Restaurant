@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -53,4 +55,60 @@ body {
 
 .loging-text {
   padding-left: 15px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #3e3c3c;
+  color: white;
+  height: 120px;
+  font-size: 9px;
+  font-family: 'roboto', sans-serif;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+}
+
+.payment-sec {
+  margin-left: 24px;
+}
+
+footer ul {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  font-size: 9px;
+  font-family: 'roboto', sans-serif;
+}
+
+.card {
+  font-size: 24px;
+  padding: 2px 4px;
+}
+
+footer .more-info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 9px;
+  font-family: 'roboto', sans-serif;
+}
+
+footer .more-info li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 12px;
+  font-family: 'roboto', sans-serif;
+}
+
+footer h2 {
+  margin-right: 24px;
 }
