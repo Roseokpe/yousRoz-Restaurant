@@ -61,14 +61,13 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: #3e3c3c;
+  background: #222;
   color: white;
   height: 120px;
   font-size: 9px;
   font-family: 'roboto', sans-serif;
-  bottom: 0;
+  right: 0;
   left: 0;
-  position: fixed;
   width: 100%;
   align-items: center;
   padding: 10px;
