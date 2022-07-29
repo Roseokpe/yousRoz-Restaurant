@@ -21,6 +21,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  margin-bottom: 24px;
   background-color: rgb(240, 240, 240);
   padding: 15px 30px;
   display: flex;
@@ -57,21 +58,77 @@ body {
   padding-left: 15px;
 }
 
+/* main-page  */
+
+.item-1 {
+  background: #222;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  color: #fff;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 30%;
+  height: 30%;
+}
+
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+  margin-top: 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* .btn {
+  width: 100px;
+  height: 32px;
+  color: #e13a44;
+  background-color: rgba(164, 83, 83, 0.5);
+  border: 1px solid #e13a44;
+}
+
+.btn:hover {
+  color: rgb(252, 252, 252);
+  background-color: #e13a44;
+}
+
+.btn:focus {
+  color: rgb(252, 252, 252);
+  background-color: #b1313a;
+} */
+
+/*
+stop here  */
 footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: #3e3c3c;
+  background: #222;
   color: white;
   height: 120px;
   font-size: 9px;
   font-family: 'roboto', sans-serif;
-  bottom: 0;
-  left: 0;
-  position: fixed;
+  margin-top: 24px;
   width: 100%;
   align-items: center;
   padding: 10px;
+  margin-bottom: -12px;
 }
 
 .payment-sec {
@@ -111,4 +168,21 @@ footer .more-info li {
 
 footer h2 {
   margin-right: 24px;
+}
+
+/* Mobile version */
+@media screen and (min-width: 768px) {
+  .list-container {
+    /* display: grid; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+  }
 }
