@@ -100,7 +100,7 @@ img {
   height: 32px;
   color: #e13a44;
   background-color: rgba(164, 83, 83, 0.5);
-=======
+
 /* start pop-up */
 .pop-up {
   display: flex;
@@ -121,7 +121,7 @@ img {
 }
 
 .card-des {
-  color:rgb(11, 5, 71);
+  color: rgb(11, 5, 71);
   margin-bottom: 15px;
 }
 
@@ -163,7 +163,6 @@ img {
   height: 32px;
   color: #e13a44;
   background-color: rgba(255, 255, 255, 50%);
-
   border: 1px solid #e13a44;
 }
 
