@@ -175,6 +175,7 @@ img {
 .btn:focus {
   color: rgb(252, 252, 252);
   background-color: #b1313a;
+}
 
 footer {
   display: flex;
