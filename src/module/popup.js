@@ -1,4 +1,4 @@
-import { url, modal, overlay, involvmentAPI } from './variables.js';
+import { url, modal, overlay, involvmentAPI } from './variables.js.js';
 
 const popupArray = [52802, 52815, 52835, 52896, 52903, 52906];
 
