@@ -100,6 +100,70 @@ img {
   height: 32px;
   color: #e13a44;
   background-color: rgba(164, 83, 83, 0.5);
+=======
+/* start pop-up */
+.pop-up {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10%;
+  margin: 50px 10px;
+  width: 70%;
+  height: 80%;
+  background-color: #dfdfdf;
+  margin-left: 50px;
+}
+
+.card-name {
+  color: #e13a44;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.card-des {
+  color:rgb(11, 5, 71);
+  margin-bottom: 15px;
+}
+
+.commet-text {
+  color: #e13a44;
+}
+
+.display-comment {
+  margin: 10px;
+  padding: 10px;
+  width: 40%;
+  background-color: rgba(255, 255, 255, 50%);
+}
+
+.posted-comment {
+  color: rgb(11, 5, 71);
+  padding: 10px;
+}
+
+.comment-form {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-input {
+  background-color: rgba(255, 255, 255, 50%);
+  height: 20px;
+  width: 45%;
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: rgb(11, 5, 71);
+}
+
+.btn {
+  width: 100px;
+  height: 32px;
+  color: #e13a44;
+  background-color: rgba(255, 255, 255, 50%);
+
   border: 1px solid #e13a44;
 }
 
@@ -111,10 +175,7 @@ img {
 .btn:focus {
   color: rgb(252, 252, 252);
   background-color: #b1313a;
-} */
 
-/*
-stop here  */
 footer {
   display: flex;
   flex-direction: row;

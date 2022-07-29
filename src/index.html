@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>E-commerce</title>
 </head>
+
 <body>
- <!-- start header area -->
- <header class="header">
+  <!-- start header area -->
+  <header class="header">
     <h1 class="logo"><strong><i>E-COMMERCE</i></strong></h1>
     <nav class="nav-link">
       <a class="header-link" href="#">Home</a>
       <a class="header-link" href="#">Program</a>
       <a class="header-link" href="#">About Us</a>
-      <a class="header-link login" href="#"><i class="fa-solid fa-circle-user"></i><P class="loging-text">Log In</P></a>
+      <a class="header-link login" href="#"><i class="fa-solid fa-circle-user"></i>
+        <P class="loging-text">Log In</P>
+      </a>
     </nav>
   </header>
+
 
   <!-- home body area -->
 <section>
@@ -25,7 +30,57 @@
 
 </section>
 
-   <!-- start footer area -->
+  <!-- start Comment pop-up area-->
+  <div id="pop-up" class="pop-up">
+    <div class="modal fade modal-dialog-scrollable" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="text-center" id="staticBackdropLabel">Information</h5>
+            <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-4 d-flex flex-column align-items-center">
+            <p id="popUpId" class="align-self-start"></p>
+            <div class="row">
+              <div class="col-6" id="popUpPoster"></div>
+              <div class="col-6 pt-5">
+                <h2 class="card-name" id="popUpTitle"></h2>
+                <p class="card-des" id="popUpDescription"></p>
+              </div>
+            </div>
+            <div id="userDetailDiv">
+              <a class="btn mt-3 mb-3" data-toggle="collapse" href="#popUpMovieComments" role="button" aria-expanded="false"
+                aria-controls="popUpMovieComments" id="movieDetailCounter">
+              </a>
+              <!--no need-->
+              <div class="collapse d-flex flex-column align-self-start w-100 p-3 comments-div" id="popUpMovieDetail">
+              <!---->
+              </div>
+            </div>
+          </div>
+          <form id="popUpForm" class="p-4">
+            <div class="form-group">
+              <input type="text" class="comment-input" placeholder="Type Your Name" id="user-name">
+            </div>
+            <div class="form-group d-none" id="userCommentDiv">
+              <textarea class="comment-input" id="user-comment"placeholder="Type Your Comment "></textarea>
+            </div>
+            <div class="form-group d-none" id="reservationStartDateDiv">
+              <textarea class="comment-input" id="reservationStartDate"placeholder="Date start"></textarea>
+            </div>
+            <div class="form-group d-none" id="reservationEndDateDiv">
+              <textarea class="comment-input" id="reservationEndDate" placeholder="Date end"></textarea>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn">Comment</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>`
+  </div>
+  <!-- start footer area -->
+
   <footer>
     <div class="payment-sec">
       <p>Our Payment are secured by</p>
@@ -59,9 +114,3 @@
   <script src="https://kit.fontawesome.com/671b106b6e.js" crossorigin="anonymous"></script>
 </body>
 </html>
-
-<!-- <div class="item-1"><div class="item-image"> 
-  <a class="" href=""><img src="${apiInput.download_url}" alt=""></a>
-  </div>    <div class="description">      <h2 class="post-tittle">${apiInput.author}</h2> 
-  <div class="item-text">        <div class="item-details"> 
-  </div> <br>  <div class="buttons">          <button class="btn " id = "0" type="button">comment</button></div> -->
