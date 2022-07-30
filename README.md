@@ -1,6 +1,6 @@
 # Project Name
 
-E-commerce
+  yousRoz-Restaurant
 
 # 📜 Description the project.
 Javascript capstone project.
@@ -21,7 +21,9 @@ We selected an API that provides data about a topic that we like and then build 
 
 
 ### 🖥️LIVE DEMO
-You can use Leaderboard by clicking [here]()
+You can use this project live by clicking [Live Demo]( https://roseokpe.github.io/yousRoz-Restaurant/)
+
+Click [Video](https://drive.google.com/file/d/1K165NVfBZVrWSycqnOe4d7_tDxj8_tbc/view?usp=sharing) to see our video presentation of this project
 
 ## 📑 Authors
 
@@ -40,32 +42,27 @@ You can use Leaderboard by clicking [here]()
 To get a local copy up and running... 
 Follow these seteps
 
-  ## 📋Setup
-to use the project E-commerce please follow :
- >Open [github.com](https://github.com) and go to my GitHub Profile >>Repositorys
- Repository name: [E-commerce](https://github.com/Roseokpe/E-commerce).
- ** To clone
- >Click “Code” and copy the given URL[https://github.com/Roseokpe/E-commerce.git].
+To get a local copy up and running follow these simple example steps.For SSH:git@github.com:Roseokpe/yousRoz-Restaurant.git For https:https://github.com/Roseokpe/yousRoz-Restaurant.git
 
- >Open “Git Bash or CMD terminal”
+Install
+Run npm install after cloning the repo.
 
- >Select the location on your PC by typing (cd)    
+Usage
+Run npm start for development. Run npm run build for production.
 
-After the selecting location
-
- >Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
-
- >Syntax:
-  >>> cd [folder name] eg: desktop 
-  >>> git clone [repository URL]
+Run tests
+Run npx eslint . for JS check
+Run npx eslint . --fix to fix JS errors if found
+Run npx stylelint "**/*.{css,scss}" for CSS check
+Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
 
 ### 🔌Usage
 
->open your directory E-commerce/
+>open your directory /yousRoz-Restaurant
 to run the file :
 _use vs-code or any IDE  to view line code .
 
-_use you preferd browser to run the file .html to get project website.
+_use your preferd browser to run the file .html to get project website.
 
 ## 🤝 Contributing
 
