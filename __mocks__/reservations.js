@@ -7,7 +7,9 @@ const reservData = [
   },
 ];
 
-export const displayReservations = () => {
+const displayReservations = () => {
   divList.push(reservData);
   return divList.length;
 };
+
+export default displayReservations;

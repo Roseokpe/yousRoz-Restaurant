@@ -1,4 +1,4 @@
-import { display } from './__mocks__/home';
+import display from './__mocks__/home';
 
 jest.mock('./src/module/home.js');
 describe('test meals count', () => {

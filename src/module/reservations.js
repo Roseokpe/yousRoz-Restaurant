@@ -1,13 +1,12 @@
-import { resModal, url } from './variables';
+import { resModal, url } from './variables.js';
 
 const divList = [];
 const popupArray = [52802, 52815, 52835, 52896, 52903, 52906];
-let user, start, end, containerRes, header;
-const getUrl =
-  'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/wC4fHH83VpkiJclfAEX8/reservations?item_id=1';
+let user; let start; let end; let containerRes; let
+  header;
+const getUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/wC4fHH83VpkiJclfAEX8/reservations?item_id=1';
 
-const postUrl =
-  'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/wC4fHH83VpkiJclfAEX8/reservations';
+const postUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/wC4fHH83VpkiJclfAEX8/reservations';
 
 export const displayReservations = async () => {
   if (divList.length > 0) {
@@ -16,8 +15,15 @@ export const displayReservations = async () => {
       item.remove();
     });
   }
+
+  const getReservations = async () => {
+    const response = await fetch(getUrl);
+    const data = await response.json();
+    return data;
+  };
+
   const reservations = await getReservations();
-  for (let i = 0; i < reservations.length; i++) {
+  for (let i = 0; i < reservations.length; i += 1) {
     const paragraph = document.createElement('p');
     paragraph.classList.add('comment');
     paragraph.innerHTML = `${reservations[i].date_start} - ${reservations[i].date_end} by ${reservations[i].username}`;
@@ -53,16 +59,17 @@ const reserveMeal = async () => {
       'content-type': 'application/json',
     },
   });
+
+  const data = await response.json();
+
+  if (data.success) {
+    alert('Reservation Successful');
+  }
+
   displayReservations();
   user.value = '';
   start.value = '';
   end.value = '';
-};
-
-const getReservations = async () => {
-  const response = await fetch(getUrl);
-  const data = await response.json();
-  return data;
 };
 
 const remove = () => {

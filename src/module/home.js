@@ -1,9 +1,8 @@
 import { url, displayHome } from './variables.js';
 import { reservPop } from './reservations.js';
-import { createLike } from './likes.js';
-import { getLikes } from './likes.js';
+import { createLike, getLikes } from './likes.js';
 
-const likesCount = (target, likesArray, numOfLikes) => {
+export const likesCount = (target, likesArray, numOfLikes) => {
   likesArray.forEach((obj) => {
     if (obj.item_id === target.id) {
       numOfLikes.innerHTML = `${obj.likes} likes `;
@@ -13,20 +12,19 @@ const likesCount = (target, likesArray, numOfLikes) => {
 
 const pasteLike = async (item, paragraph) => {
   if (paragraph === undefined) {
-    const paragraph = document.querySelectorAll('.like-show')
+    const paragraph = document.querySelectorAll('.like-show');
     const getAllLikes = await getLikes();
     getAllLikes.forEach((like) => {
       if (like.item_id === item) {
         paragraph.forEach((card) => {
           if (card.id === item) {
-            card.innerHTML = `${like.likes}`
+            card.innerHTML = `${like.likes}`;
           }
-        })
+        });
       }
-    })
+    });
   }
- 
-}
+};
 
 const display = async () => {
   let id = 0;
@@ -35,7 +33,7 @@ const display = async () => {
   const num = data.meals.slice(0, 6).length;
   console.log(num);
   const counter = document.querySelector('#homeCount');
-  counter.textContent = `Total Meals ${num}`
+  counter.textContent = `Total Meals ${num}`;
   displayHome.innerHTML = data.meals
     .slice(0, 6)
     .map(
@@ -57,14 +55,14 @@ const display = async () => {
 
   const likeShow = document.querySelectorAll('.fa-thumbs-up');
   likeShow.forEach((like) => {
-    pasteLike(like.id)
+    pasteLike(like.id);
     like.addEventListener('click', async () => {
-      console.log(like.id)
-      await createLike(like.id)
+      console.log(like.id);
+      await createLike(like.id);
 
-      pasteLike(like.id)
-    })
-  })
+      pasteLike(like.id);
+    });
+  });
 };
 
 window.addEventListener('load', display);

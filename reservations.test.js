@@ -1,4 +1,4 @@
-import { displayReservations } from './__mocks__/reservations';
+import displayReservations from './__mocks__/reservations.js';
 
 jest.mock('./src/module/reservations.js');
 describe('test reservation count', () => {

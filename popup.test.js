@@ -1,4 +1,4 @@
-import { displayPopup } from './__mocks__/popup.js';
+import displayPopup from './__mocks__/popup.js';
 
 jest.mock('./src/module/popup.js');
 describe('test comments count', () => {

@@ -1,6 +1,6 @@
 const divList = [];
 
-export const display = () => {
+const display = () => {
   const reservData = [
     {
       username: 'frank',
@@ -11,3 +11,5 @@ export const display = () => {
   divList.push(reservData);
   return divList.length;
 };
+
+export default display;

@@ -7,7 +7,9 @@ const userComment = [
   },
 ];
 
-export const displayPopup = () => {
+const displayPopup = () => {
   comments.push(userComment);
   return comments.length;
 };
+
+export default displayPopup;
