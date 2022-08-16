@@ -32,9 +32,9 @@ Click [Video](https://drive.google.com/file/d/1K165NVfBZVrWSycqnOe4d7_tDxj8_tbc/
 - LinkedIn: [Ahmed Zaki Yousufi](https://www.linkedin.com/in/ahmadzaki-yousufi-055214217/)
 
 👤 **Rose Okpe**
-- GitHub: [@roseokpe](https://github.com/roseokpe)
-- Twitter: [@roseokpe](https://twitter.com/roseokpe)
-- LinkedIn: [LinkedIn](linkedin.com/in/rose-okpe-0334b5177/)
+- GitHub: [Rose Okpe](https://github.com/roseokpe)
+- Twitter: [Rose Okpe](https://twitter.com/roseokpe)
+- LinkedIn: [Rose Okpe](linkedin.com/in/rose-okpe-0334b5177/)
 
 
 ## ⚙ Getting Started
